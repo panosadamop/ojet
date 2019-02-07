@@ -1,0 +1,22 @@
+<!--
+ Copyright (c) 2014, 2019, Oracle and/or its affiliates.
+ The Universal Permissive License (UPL), Version 1.0
+ -->
+<div class="oj-hybrid-padding">
+  <h1>Incidents Content Area</h1>
+      <div data-bind="ojComponent:{
+            component:'ojChart',
+            type: 'bar',
+            series: datasource
+      }"></div>
+
+      <div data-bind="ojComponent:{
+            component:'ojChart',
+            type: 'pie',
+            series: datasource
+      }"></div>
+
+    <oj-chart type="line"
+               series="[[datasource]]"
+    </div>
+</div>
