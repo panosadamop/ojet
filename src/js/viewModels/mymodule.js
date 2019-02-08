@@ -6,7 +6,7 @@
 /*
  * Your about ViewModel code goes here
  */
-define(['ojs/ojcore', 'knockout', 'jquery', 'ojs/ojselectcombobox'],
+define(['ojs/ojcore', 'knockout', 'jquery'],
     function(oj, ko, $) {
 
         function MymoduleViewModel() {
@@ -14,22 +14,6 @@ define(['ojs/ojcore', 'knockout', 'jquery', 'ojs/ojselectcombobox'],
             // Below are a set of the ViewModel methods invoked by the oj-module component.
             // Please reference the oj-module jsDoc for additional information.
 
-            /*Add component from cookbook*/
-
-            self.val = ko.observable("Any");
-
-            /*$(
-                function()
-                {
-                    function ValueModel() {
-                        this.isNative = ko.observable(true);
-                        this.val = ko.observableArray(["CH","SA"]);
-                        this.valopts = ko.observableArray();
-                    }
-                    ko.applyBindings(new ValueModel(), document.getElementById('form1'));
-                }
-            );*/
-            /*./Add component from cookbook*/
             /**
              * Optional ViewModel method invoked after the View is inserted into the
              * document DOM.  The application can put logic that requires the DOM being
