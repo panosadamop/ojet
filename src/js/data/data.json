@@ -1,28 +1,28 @@
 [
   {
-    "name": "Pedestrians",
+    "name": "Pedestrians1",
     "items": [
       22
     ]
   },
   {
-    "name": "Vehicles",
+    "name": "Vehicles1",
     "items": [
       55
     ]
   },
   {
-    "name": "Bicycles",
+    "name": "Bicycles1",
     "items": [
       36
     ]
   },
   {
-    "name": "Buses",
+    "name": "Buses1",
     "items": [
       12
     ]
   },
   {
-    "name": "Trains", "items": [122]}
+    "name": "Trains1", "items": [122]}
 ]

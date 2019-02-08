@@ -6,7 +6,9 @@
 /*
  * Your incidents ViewModel code goes here
  */
-define(['ojs/ojcore','knockout', 'jquery', 'ojs/ojknockout', 'ojs/ojbutton', 'ojs/ojlegend', 'ojs/ojchart', 'ojs/ojtoolbar'],
+/*text!data/data.json is used for loading json file. it is the fourth element as file is the fourth attribute of function*/
+
+define(['ojs/ojcore','knockout', 'jquery', 'text!data/data.json' , 'ojs/ojknockout', 'ojs/ojbutton', 'ojs/ojlegend', 'ojs/ojchart', 'ojs/ojtoolbar'],
  function(oj, ko, $, file) {
   
     function IncidentsViewModel() {
@@ -24,7 +26,7 @@ define(['ojs/ojcore','knockout', 'jquery', 'ojs/ojknockout', 'ojs/ojbutton', 'oj
                 {name: "Trains", items: [122]}
             ];*/
 
-       var data= $.getJSON(file);
+       var data= JSON.parse(file);
 
         self.datasource = ko.observableArray(data);
 
