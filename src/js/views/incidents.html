@@ -13,16 +13,18 @@
             <oj-option value="line">Line</oj-option>
         </oj-select-one>
 
-        <div>
+        <div style="color: red">
             <br/>
-            <oj-label for="curr-value">Current selected value is  </oj-label>
+            <oj-label for="curr-value"><strong>Debug block: </strong>Current selected value is  </oj-label>
             <span id="curr-value"><oj-bind-text value="[[val]]"></oj-bind-text></span>
+            <br/>
         </div>
     </div>
 
 <!--Select type according to dropdown-->
-    <oj-chart type="{{val}}" series="[[datasource]]"></oj-chart>
-   <!--   <div data-bind="ojComponent:{
+    <oj-chart type="[[val]]" series="[[datasource]]"></oj-chart>
+   <!--This is deprecated declaration. Use directives
+      <div data-bind="ojComponent:{
             component:'ojChart',
             type: '{{val}}',
             series: [[datasource]]
