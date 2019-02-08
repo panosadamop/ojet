@@ -2,10 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="547ccd7e-179f-4d4d-aa31-94e72b2ccb21" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/js/viewModels/mymodule.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/js/views/mymodule.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/appController.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/appController.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/viewModels/incidents.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/viewModels/incidents.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/viewModels/mymodule.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/viewModels/mymodule.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/views/incidents.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/views/incidents.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/views/mymodule.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/views/mymodule.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -30,13 +31,13 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/js/viewModels/incidents.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="121" selection-start-line="8" selection-start-column="121" selection-end-line="8" selection-end-column="121" />
+            <state relative-caret-position="272">
+              <caret line="16" column="73" lean-forward="true" selection-start-line="16" selection-start-column="73" selection-end-line="16" selection-end-column="73" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/js/appController.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="544">
@@ -55,8 +56,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/js/views/mymodule.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+            <state relative-caret-position="153">
+              <caret line="9" column="34" lean-forward="true" selection-start-line="9" selection-start-column="34" selection-end-line="9" selection-end-column="34" />
+              <folding>
+                <element signature="n#style#0;n#oj-select-many#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -64,8 +68,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/js/viewModels/mymodule.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="476">
-              <caret line="49" column="38" selection-start-line="49" selection-start-column="38" selection-end-line="49" selection-end-column="38" />
+            <state relative-caret-position="306">
+              <caret line="18" column="44" lean-forward="true" selection-start-line="16" selection-start-column="12" selection-end-line="18" selection-end-column="44" />
             </state>
           </provider>
         </entry>
@@ -97,11 +101,14 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/js/views/incidents.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" selection-start-line="17" selection-end-line="17" />
+            <state relative-caret-position="191">
+              <caret line="12" column="40" selection-start-line="12" selection-start-column="40" selection-end-line="12" selection-end-column="40" />
+              <folding>
+                <element signature="n#style#0;n#oj-select-one#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -125,14 +132,14 @@
       <list>
         <option value="$PROJECT_DIR$/src/js/viewModels/dashboard.js" />
         <option value="$PROJECT_DIR$/src/js/views/dashboard.html" />
-        <option value="$PROJECT_DIR$/src/js/views/incidents.html" />
         <option value="$PROJECT_DIR$/src/js/data/data.json" />
-        <option value="$PROJECT_DIR$/src/js/viewModels/incidents.js" />
         <option value="$PROJECT_DIR$/src/js/viewModels/mymodule.html" />
         <option value="$PROJECT_DIR$/src/js/views/mymodule.js" />
-        <option value="$PROJECT_DIR$/src/js/viewModels/mymodule.js" />
-        <option value="$PROJECT_DIR$/src/js/views/mymodule.html" />
         <option value="$PROJECT_DIR$/src/js/appController.js" />
+        <option value="$PROJECT_DIR$/src/js/views/mymodule.html" />
+        <option value="$PROJECT_DIR$/src/js/viewModels/mymodule.js" />
+        <option value="$PROJECT_DIR$/src/js/viewModels/incidents.js" />
+        <option value="$PROJECT_DIR$/src/js/views/incidents.html" />
       </list>
     </option>
   </component>
@@ -223,7 +230,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1549546426301</updated>
-      <workItem from="1549546427569" duration="7798000" />
+      <workItem from="1549546427569" duration="8889000" />
     </task>
     <task id="LOCAL-00001" summary="Data from file">
       <created>1549613591391</created>
@@ -232,11 +239,18 @@
       <option name="project" value="LOCAL" />
       <updated>1549613591392</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="New module">
+      <created>1549614847132</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1549614847132</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7798000" />
+    <option name="totallyTimeSpent" value="8889000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1936" height="1066" extended-state="6" />
@@ -270,7 +284,8 @@
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
     <MESSAGE value="Data from file" />
-    <option name="LAST_COMMIT_MESSAGE" value="Data from file" />
+    <MESSAGE value="New module" />
+    <option name="LAST_COMMIT_MESSAGE" value="New module" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/index.html">
@@ -305,24 +320,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/js/views/incidents.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/js/data/data.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="442">
           <caret line="26" column="20" selection-start-line="26" selection-start-column="20" selection-end-line="26" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/js/viewModels/incidents.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="121" selection-start-line="8" selection-start-column="121" selection-end-line="8" selection-end-column="121" />
         </state>
       </provider>
     </entry>
@@ -333,24 +334,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/js/viewModels/mymodule.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="49" column="38" selection-start-line="49" selection-start-column="38" selection-end-line="49" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/js/views/about.html">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/js/views/mymodule.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
         </state>
       </provider>
     </entry>
@@ -363,6 +350,40 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="544">
           <caret line="61" column="76" selection-start-line="61" selection-start-column="76" selection-end-line="61" selection-end-column="76" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/js/viewModels/mymodule.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="44" lean-forward="true" selection-start-line="16" selection-start-column="12" selection-end-line="18" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/js/viewModels/incidents.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="73" lean-forward="true" selection-start-line="16" selection-start-column="73" selection-end-line="16" selection-end-column="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/js/views/mymodule.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="34" lean-forward="true" selection-start-line="9" selection-start-column="34" selection-end-line="9" selection-end-column="34" />
+          <folding>
+            <element signature="n#style#0;n#oj-select-many#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/js/views/incidents.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="191">
+          <caret line="12" column="40" selection-start-line="12" selection-start-column="40" selection-end-line="12" selection-end-column="40" />
+          <folding>
+            <element signature="n#style#0;n#oj-select-one#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

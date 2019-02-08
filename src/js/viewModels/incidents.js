@@ -8,13 +8,17 @@
  */
 /*text!data/data.json is used for loading json file. it is the fourth element as file is the fourth attribute of function*/
 
-define(['ojs/ojcore','knockout', 'jquery', 'text!data/data.json' , 'ojs/ojknockout', 'ojs/ojbutton', 'ojs/ojlegend', 'ojs/ojchart', 'ojs/ojtoolbar'],
+define(['ojs/ojcore','knockout', 'jquery', 'text!data/data.json' , 'ojs/ojknockout', 'ojs/ojbutton', 'ojs/ojlegend', 'ojs/ojchart', 'ojs/ojtoolbar', 'ojs/ojselectcombobox'],
  function(oj, ko, $, file) {
   
     function IncidentsViewModel() {
       var self = this;
       // Below are a set of the ViewModel methods invoked by the oj-module component.
       // Please reference the oj-module jsDoc for additional information.
+
+        /*Add component from cookbook*/
+
+        self.val = ko.observable("pie");
 
         /*Observable arrays*/
 
