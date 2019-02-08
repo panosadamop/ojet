@@ -20,8 +20,8 @@ define(['ojs/ojcore', 'knockout', 'jquery', 'ojs/ojtable', 'ojs/ojarraytabledata
                  $.each(countries, function(){
                      tmpArray.push({
                          name: this.name,
-                         population: this.population,
-                         capital: this.capital
+                         alpha2Code: this.alpha2Code,
+                         alpha3Code: this.alpha3Code
                             });
                         });
                  self.data(tmpArray);
