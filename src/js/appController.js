@@ -24,7 +24,8 @@ define(['ojs/ojcore', 'knockout', 'ojs/ojmodule-element-utils', 'ojs/ojmodule-el
          'dashboard': {label: 'Dashboard', isDefault: true},
          'incidents': {label: 'Incidents'},
          'customers': {label: 'Customers'},
-         'about': {label: 'About'}
+         'about': {label: 'About'},
+         'mymodule':{label:'My Module'}
        });
       oj.Router.defaults['urlAdapter'] = new oj.Router.urlParamAdapter();
 
@@ -56,7 +57,9 @@ define(['ojs/ojcore', 'knockout', 'ojs/ojmodule-element-utils', 'ojs/ojmodule-el
       {name: 'Customers', id: 'customers',
        iconClass: 'oj-navigationlist-item-icon demo-icon-font-24 demo-people-icon-24'},
       {name: 'About', id: 'about',
-       iconClass: 'oj-navigationlist-item-icon demo-icon-font-24 demo-info-icon-24'}
+       iconClass: 'oj-navigationlist-item-icon demo-icon-font-24 demo-info-icon-24'},
+      {name: 'My Module', id: 'mymodule',
+       iconClass: 'oj-navigationlist-item-icon demo-icon-font-24 demo-person-icon-24'}
       ];
       self.navDataSource = new oj.ArrayTableDataSource(navData, {idAttribute: 'id'});
 
