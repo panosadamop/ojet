@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="547ccd7e-179f-4d4d-aa31-94e72b2ccb21" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/js/factories/CountryFactory.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/viewModels/about.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/viewModels/about.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/viewModels/customers.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/viewModels/customers.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -17,96 +18,24 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/js/views/dashboard.html">
+        <entry file="file://$PROJECT_DIR$/src/js/factories/CountryFactory.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="47" selection-start-line="9" selection-start-column="47" selection-end-line="9" selection-end-column="47" />
+            <state relative-caret-position="391">
+              <caret line="23" column="26" selection-start-line="23" selection-start-column="26" selection-end-line="23" selection-end-column="26" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/js/viewModels/incidents.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="73" selection-start-line="16" selection-start-column="73" selection-end-line="16" selection-end-column="73" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/js/appController.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="544">
-              <caret line="61" column="76" selection-start-line="61" selection-start-column="76" selection-end-line="61" selection-end-column="76" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/js/main.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-812" />
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/js/views/mymodule.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="412">
-              <caret line="72" column="15" selection-start-line="72" selection-start-column="15" selection-end-line="72" selection-end-column="15" />
-              <folding>
-                <element signature="n#style#0;n#oj-table#0;n#div#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/js/viewModels/mymodule.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="44" selection-start-line="16" selection-start-column="44" selection-end-line="16" selection-end-column="44" />
-            </state>
-          </provider>
+        <entry file="file://$PROJECT_DIR$/src/js/views/customers.html">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/js/views/about.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="29" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/js/viewModels/about.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="344">
-              <caret line="23" column="31" selection-start-line="23" selection-start-column="31" selection-end-line="23" selection-end-column="31" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/js/data/data.json">
+        <entry file="file://$PROJECT_DIR$/src/js/viewModels/customers.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="442">
-              <caret line="26" column="20" selection-start-line="26" selection-start-column="20" selection-end-line="26" selection-end-column="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/js/views/incidents.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="429">
-              <caret line="26" column="6" selection-start-line="26" selection-start-column="6" selection-end-line="26" selection-end-column="6" />
-              <folding>
-                <element signature="n#style#0;n#oj-select-one#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-              </folding>
+              <caret line="26" column="3" lean-forward="true" selection-start-line="26" selection-start-column="3" selection-end-line="26" selection-end-column="3" />
             </state>
           </provider>
         </entry>
@@ -140,10 +69,12 @@
         <option value="$PROJECT_DIR$/src/js/viewModels/mymodule.js" />
         <option value="$PROJECT_DIR$/src/js/viewModels/about.js" />
         <option value="$PROJECT_DIR$/src/js/views/about.html" />
+        <option value="$PROJECT_DIR$/src/js/factories/CountryFactory.js" />
+        <option value="$PROJECT_DIR$/src/js/viewModels/customers.js" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="2019" />
     <option name="y" value="28" />
     <option name="width" value="1400" />
@@ -230,7 +161,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1549546426301</updated>
-      <workItem from="1549546427569" duration="12542000" />
+      <workItem from="1549546427569" duration="13509000" />
     </task>
     <task id="LOCAL-00001" summary="Data from file">
       <created>1549613591391</created>
@@ -281,24 +212,31 @@
       <option name="project" value="LOCAL" />
       <updated>1549619421901</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="JSON service - better to use a tmp array and not push directly in getJSON.data">
+      <created>1549619599914</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1549619599914</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12542000" />
+    <option name="totallyTimeSpent" value="13509000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="2019" y="28" width="1400" height="960" extended-state="0" />
+    <frame x="1912" y="-8" width="1936" height="1066" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Grunt " side_tool="true" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2496329" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17913593" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="TypeScript" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" />
-      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.3458283" />
+      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.30653805" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -324,7 +262,8 @@
     <MESSAGE value="Flex" />
     <MESSAGE value="Tables" />
     <MESSAGE value="JSON service" />
-    <option name="LAST_COMMIT_MESSAGE" value="JSON service" />
+    <MESSAGE value="JSON service - better to use a tmp array and not push directly in getJSON.data" />
+    <option name="LAST_COMMIT_MESSAGE" value="JSON service - better to use a tmp array and not push directly in getJSON.data" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/index.html">
@@ -413,6 +352,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/js/views/about.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="29" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/js/viewModels/about.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="344">
@@ -420,10 +366,25 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/js/views/about.html">
+    <entry file="file://$PROJECT_DIR$/src/js/path_mapping.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="29" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="29" />
+        <state relative-caret-position="-561" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/js/factories/CountryFactory.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="26" selection-start-line="23" selection-start-column="26" selection-end-line="23" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/js/views/customers.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/js/viewModels/customers.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="26" column="3" lean-forward="true" selection-start-line="26" selection-start-column="3" selection-end-line="26" selection-end-column="3" />
         </state>
       </provider>
     </entry>
